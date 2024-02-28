@@ -23,10 +23,14 @@ $ conda create -n dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix pyth
 $ conda info --envs
 $ conda activate dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix
 $ pip install -r requirements.txt
-$ pip install -e
 ```
 
-zum entfernen der neuen Umgebung aus conda:
+#### optionale packages für die EDA
+```
+$ pip install -U ydata-profiling (optional für die eda)
+```
+
+#### entfernen der Umgebung aus conda
 ```
 $ conda deactivate
 $ conda env remove -n dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix
