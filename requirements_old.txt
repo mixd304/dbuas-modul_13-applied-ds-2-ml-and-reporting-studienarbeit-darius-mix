@@ -1,0 +1,11 @@
+pandas
+numpy
+seaborn
+jupyter
+jupyterlab
+statsmodels
+prophet
+xgboost
+matplotlib
+ydata-profiling
+optuna

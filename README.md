@@ -10,7 +10,7 @@ Ordner ```input``` -  enthält die Daten, welche im Rahmen der Studienarbeit ana
 Ordner ```output``` - enthält jeglichen Output des Python Codes, u.a. den Profiling Report der EDA.  <br>
 Ordner ```notebooks``` - enthält jegliche Notebooks der Arbeit.  <br>
 ```notebooks\eda.ipynb``` - Notebook für die EDA.  <br>
-```notebooks\analyse.ipynb``` - Notebook für die Analyse und Darstellung der Ergebnisse.  <br>
+```notebooks\main.ipynb``` - Notebook für die Analyse und Darstellung der Ergebnisse.  <br>
 
 ## Setup
 
@@ -19,15 +19,17 @@ Ordner ```notebooks``` - enthält jegliche Notebooks der Arbeit.  <br>
 #### conda
 ```
 $ conda init
-$ conda create --name dbuas-ads-2-ml-and-reporting-studienarbeit-dariusmix --file requirements.txt
+$ conda create -n dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix python=3.11 -y
 $ conda info --envs
-$ conda activate dbuas-ads-2-ml-and-reporting-studienarbeit-dariusmix
+$ conda activate dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix
+$ pip install -r requirements.txt
+$ pip install -e
 ```
 
 zum entfernen der neuen Umgebung aus conda:
 ```
 $ conda deactivate
-$ conda env remove --name dbuas-ads-2-ml-and-reporting-studienarbeit-dariusmix
+$ conda env remove -n dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix
 ```
 
 Hinweis:
