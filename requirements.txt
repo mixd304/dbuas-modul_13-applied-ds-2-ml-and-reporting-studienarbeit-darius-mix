@@ -33,3 +33,5 @@ tensorflow~=2.15.0
 wfs-downloader~=1.2.0
 azure-ai-ml~=1.12.1
 pydotplus~=2.0.2
+# BONUS
+xgboost~=1.5.0
