@@ -10,6 +10,7 @@ Ordner ```input``` -  enthält die Daten, welche im Rahmen der Studienarbeit ana
 Ordner ```output``` - enthält jeglichen Output des Python Codes, u.a. den Profiling Report der EDA.  <br>
 Ordner ```notebooks``` - enthält jegliche Notebooks der Arbeit.  <br>
 ```notebooks\eda.ipynb``` - Notebook für die EDA.  <br>
+```notebooks\eda_profiling_report.ipynb``` - Notebook für die Erstellung des Profiling Reports.  <br>
 ```notebooks\main.ipynb``` - Notebook für die Analyse und Darstellung der Ergebnisse.  <br>
 
 ## Setup
@@ -25,9 +26,9 @@ $ conda activate dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix
 $ pip install -r requirements.txt
 ```
 
-#### optionale packages für die EDA
+#### zusätzliches Environment zur Erstellung des Pandas Profiling Reports
 ```
-$ pip install -U ydata-profiling (optional für die eda)
+$ conda create -n profiling_report -file requirements_profiling.txt
 ```
 
 #### entfernen der Umgebung aus conda
