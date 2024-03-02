@@ -21,20 +21,28 @@ Ordner ```notebooks``` - enthält jegliche Notebooks der Arbeit.  <br>
 ```
 $ conda init
 $ conda create -n dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix python=3.11 -y
-$ conda info --envs
 $ conda activate dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix
 $ pip install -r requirements.txt
 ```
 
-#### zusätzliches Environment zur Erstellung des Pandas Profiling Reports
+#### zusätzliches Environment zur Erstellung des ydata profiling reports
 ```
-$ conda create -n profiling_report -file requirements_profiling.txt
+$ conda create -n profiling_report python=3.11 -y
+$ conda activate profiling_report
+$ pip install -r requirements_profiling.txt
+```
+
+#### Anzeige der vorhandenen Environments
+```
+$ conda info --envs
 ```
 
 #### entfernen der Umgebung aus conda
 ```
+$ conda info --envs
 $ conda deactivate
 $ conda env remove -n dbuas-ads-2-ml-and-reporting-full-studienarbeit-dariusmix
+$ conda env remove -n profiling_report
 ```
 
 Hinweis:
