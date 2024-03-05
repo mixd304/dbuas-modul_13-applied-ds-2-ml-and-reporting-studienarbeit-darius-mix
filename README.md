@@ -11,6 +11,7 @@ Ordner ```output``` - enthält jeglichen Output des Python Codes, u.a. den Profi
 Ordner ```notebooks``` - enthält jegliche Notebooks der Arbeit.  <br>
 ```notebooks\eda.ipynb``` - Notebook für die EDA.  <br>
 ```notebooks\eda_profiling_report.ipynb``` - Notebook für die Erstellung des Profiling Reports.  <br>
+```notebooks\hyperparameter_gradient_boosting.ipynb``` - Notebook für die Optimierung der Hyperparameter des Gradient Boosting Modells.  <br>
 ```notebooks\main.ipynb``` - Notebook für die Analyse und Darstellung der Ergebnisse.  <br>
 
 ## Setup
